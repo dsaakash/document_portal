@@ -34,8 +34,10 @@ git commit -m "<write your commit message>"
 git push
 
 # Cloning the repository
+
 git clone https://github.com/dsaakash/document_portal.git
-```
+
+
 ## Minimum Requirements for the Project
 
 ### LLM Models
