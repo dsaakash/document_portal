@@ -40,6 +40,26 @@ git clone https://github.com/dsaakash/document_portal.git
 
 ## Minimum Requirements for the Project
 
+1.  LLm models ## groq(freely) ,openai(paid), claude(paid),huggingface(freely),
+ollama(local setup)
+
+2. Embedding Models ## openai,hf,gemini
+3. Vector Databases ## In-Memory ,On-Disk,Cloud-Based
+
+## Models and Databases
+
+This section provides a detailed overview of the LLM models, embedding models, and vector databases that can be used in the project.
+
+### Project Structure
+
+-   **Data Ingestion**: Ingest data from various sources.
+-   **Data Processing**: Process and clean the ingested data.
+-   **Embedding Creation**: Create embeddings using specified models.
+-   **Vector Database Storage**: Store embeddings in a vector database.
+-   **Querying**: Query the vector database to retrieve relevant information.
+-   **Response Generation**: Generate responses using LLM models.
+
+
 ### LLM Models
 - **Groq** (Free)
 - **OpenAI** (Paid)
